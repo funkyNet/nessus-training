@@ -19,7 +19,7 @@ services:
 #    container_name: ubuntu  
     restart: unless-stopped  
     ports:
-    - 2222:22
+    - "22:22"
     networks:
       vuln-net:
        ipv4_address: 10.20.0.101
