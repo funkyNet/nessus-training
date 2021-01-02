@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  nessus:
+    image: funkynet/nessus:latest
+    restart: unless-stopped
+    ports:
+    - "8834:8834"
+#    volumes:
+#      - ./nessus/plugins:/opt/nessus/lib/nessus/plugins
+    networks:
+      vuln-net:
+        ipv4_address: 10.20.0.100
+
+#root/root
+  ubuntu:
+    image: rastasheep/ubuntu-sshd
+    restart: unless-stopped  
+    command: tail -F anything  
+    networks:
+      vuln-net:
+       ipv4_address: 10.20.0.101
+
+  django:
+    build: './django'
+    restart: unless-stopped
+    ports:
+    - "8835:8000"
+    networks:
+      vuln-net:
+        ipv4_address: 10.20.0.102
+
+#volumes:
+#  nessus-data:
+#    driver: local
+
+networks:
+  vuln-net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.20.0.0/24
