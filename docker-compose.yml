@@ -3,7 +3,7 @@ version: '3.8'
 services:
   nessus:
     image: funkynet/nessus:latest
-    container_name: nessus
+#    container_name: nessus
     restart: unless-stopped
     ports:
     - "8834:8834"
@@ -15,8 +15,8 @@ services:
 
 #root/root
   ubuntu:
-    image: funkynet/ubuntu-sshd
-    container_name: ubuntu  
+    image: funkynet/ubuntu-sshd:latest
+#    container_name: ubuntu  
     restart: unless-stopped  
     ports:
     - 2222:22
@@ -26,8 +26,8 @@ services:
 
 #admin/djangobango
   django:
-    build: './django.nV'
-    container_name: django.nV
+    build: './django.nv'
+#    container_name: django.nv
     restart: unless-stopped
     ports:
     - "8835:8000"
