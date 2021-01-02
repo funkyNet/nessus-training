@@ -1,6 +1,8 @@
 # Nessus-Training
 Self-Development project to create training on [Nessus](https://www.tenable.com/products/nessus)
 
+> You'll need a free [license](https://www.tenable.com/products/nessus/nessus-essentials)
+
 [![Build Status][github-image]][github-url] #WIP
 
 ## Installation & Run
