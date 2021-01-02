@@ -1,4 +1,4 @@
-# Nessus-Trainer
+# Nessus-Training
 > Self-Development project to create training on nessus <nessus link>
 > by cloning this repo and running docker-compose, Nessus and 2 target "machines" are available 
 
@@ -6,23 +6,21 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
 ## Installation
-
-OS X & Linux:
+Linux:
 
 ```sh
-npm install my-crazy-module --save
+git clone https://github.com/funkyNet/nessus-training.git
+cd nessus-training
 ```
 
 Windows:
 
-```sh
-edit autoexec.bat
-```
+Leverage WSL2 and Docker Desktop
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## Usage example
 
@@ -40,25 +38,17 @@ npm test
 ```
 
 ## Release History
+* #.#.#
+   * CHANGE:
+   * ADD:
+   * FIX: 
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Matt Funk – [@YourTwitter](https://twitter.com/FunkyInfoSec)
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the GNU General Public License v3.0 license. See ``LICENSE`` for more information.
 
 [https://github.com/yourname/github-link](https://github.com/dbader/)
 
