@@ -22,7 +22,7 @@ services:
        ipv4_address: 10.20.0.101
 
   django:
-    build: './django'
+    build: './django.nV'
     restart: unless-stopped
     ports:
     - "8835:8000"
