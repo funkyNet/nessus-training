@@ -26,6 +26,9 @@ Once this is running, try...
 ![](images/nessus_example.png)
 
 ## Release History
+* 1.0.0
+  * ADD: Created working docker-compose.yml
+  * ADD: Created README.md
 * #.#.#
    * CHANGE:
    * ADD:
