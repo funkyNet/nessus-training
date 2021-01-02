@@ -47,3 +47,4 @@ Distributed under the GNU General Public License v3.0 license. See ``LICENSE`` f
 ## Resources
 [read-me](https://github.com/dbader/readme-template)
 [Nessus](https://www.tenable.com/products/nessus)
+[django.nV](https://github.com/secfigo/django.nv)
