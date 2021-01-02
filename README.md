@@ -1,6 +1,5 @@
 # Nessus-Training
 Self-Development project to create training on [Nessus](https://www.tenable.com/products/nessus)
-by cloning this repo and running docker-compose, Nessus and 2 target "machines" are available 
 
 [![Build Status][github-image]][github-url] #WIP
 
