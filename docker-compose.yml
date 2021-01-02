@@ -24,6 +24,7 @@ services:
       vuln-net:
        ipv4_address: 10.20.0.101
 
+#admin/djangobango
   django:
     build: './django.nV'
     container_name: django.nV
