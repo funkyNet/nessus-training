@@ -3,6 +3,7 @@ version: '3.8'
 services:
   nessus:
     image: funkynet/nessus:latest
+    container_name: nessus
     restart: unless-stopped
     ports:
     - "8834:8834"
@@ -14,15 +15,18 @@ services:
 
 #root/root
   ubuntu:
-    image: rastasheep/ubuntu-sshd
+    image: funkynet/ubuntu-sshd
+    container_name: ubuntu  
     restart: unless-stopped  
-    command: tail -F anything  
+    ports:
+    - 2222:22
     networks:
       vuln-net:
        ipv4_address: 10.20.0.101
 
   django:
     build: './django.nV'
+    container_name: django.nV
     restart: unless-stopped
     ports:
     - "8835:8000"
