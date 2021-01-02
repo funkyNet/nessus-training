@@ -12,8 +12,8 @@ docker-compose up -d
 ```
 
 Windows:
-Leverage WSL2 and Docker Desktop
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
+> Leverage WSL2 and Docker Desktop
+> https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 ## Usage example
 Once this is running, try...
