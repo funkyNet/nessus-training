@@ -20,10 +20,14 @@ Windows:
 ## Usage example
 Once this is running, try...
 * Host discovery (network 10.20.0.0/24)
-* Web Vuln Scanning (django)
-* Host Scanning (ubuntu)
-
 ![](images/nessus_example.png)
+
+* Web Vuln Scanning (django)
+![](images/nessus_django_example.png)
+
+* Host Scanning (ubuntu)
+![](images/nessus_ubuntu_example.png)
+
 
 ## Release History
 * 1.0.0
