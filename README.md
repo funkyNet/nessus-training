@@ -48,6 +48,7 @@ Once this is running, try...
 
 ## Meta
 Matt Funk – [@FunkyInfoSec](https://twitter.com/FunkyInfoSec)
+
 Distributed under the GNU General Public License v3.0 license. See ``LICENSE`` for more information.
 
 ## Contributing
@@ -63,5 +64,7 @@ Distributed under the GNU General Public License v3.0 license. See ``LICENSE`` f
 
 ## Resources
 [read-me](https://github.com/dbader/readme-template)
+
 [Nessus](https://www.tenable.com/products/nessus)
+
 [django.nV](https://github.com/secfigo/django.nv)
