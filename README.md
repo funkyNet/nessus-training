@@ -63,8 +63,8 @@ Distributed under the GNU General Public License v3.0 license. See ``LICENSE`` f
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 
 ## Resources
-[read-me](https://github.com/dbader/readme-template)
+[read-me template](https://github.com/dbader/readme-template)
 
-[Nessus](https://www.tenable.com/products/nessus)
+[Nessus Website](https://www.tenable.com/products/nessus)
 
-[django.nV](https://github.com/secfigo/django.nv)
+[django.nV github](https://github.com/secfigo/django.nv)
