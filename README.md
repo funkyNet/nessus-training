@@ -17,6 +17,10 @@ Windows:
 > Leverage WSL2 and Docker Desktop
 > https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
+
+## Access 
+Nessus can be found @ localhost:8843
+
 ## Usage example
 Once this is running, try...
 * Host discovery (network 10.20.0.0/24)
