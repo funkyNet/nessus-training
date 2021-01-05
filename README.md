@@ -21,7 +21,7 @@ Windows:
 ## Access 
 Nessus can be found @ https://localhost:8834
 
-Our vulnerable WebApp can be found @ localhost:8835
+The vulnerable WebApp can be found @ localhost:8835
 
 
 ## Usage example
