@@ -26,7 +26,7 @@ services:
 
 #admin/djangobango
   django:
-    build: './django.nv'
+    build: './django.nV'
     container_name: django.nv
     restart: unless-stopped
     ports:
